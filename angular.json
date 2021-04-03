@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "sapient-test": {
@@ -117,8 +117,16 @@
               "devServerTarget": "sapient-test:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
-    }},
-  "defaultProject": "sapient-test"
+    }
+  },
+  "defaultProject": "sapient-test",
+  "cli": {
+    "analytics": "17d2375a-764d-409f-acca-594a615b39ea"
+  }
 }
