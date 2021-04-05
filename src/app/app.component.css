@@ -5,12 +5,9 @@ body{
     float:left;
     padding-left: 10px;
     width:20%;
-    /* text-align:center; */
     background-color:#fff;
   }
   .menu a {
-    /* padding:8px;
-    margin-top:7px; */
     display:block;
     width:100%;
     color:black;
@@ -18,13 +15,11 @@ body{
   .main {
     float:left;
     width:75%;
-    /* background-color:#fff; */
     margin-left: 24px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    /* padding:0 20px; */
   }
   .sub-main{
     width:24%;
@@ -78,7 +73,6 @@ body{
   }
   
   @media only screen and (max-width:620px) {
-    /* For mobile phones: */
     .menu, .main, .right {
       width:100%;
     }
